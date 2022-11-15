@@ -4,6 +4,12 @@
     <title>{{ name }}</title>
 </head>
 <body>
+    <div class="menu-link">
+        <a href="/user/Herbert">Other Page</a>
+    </div>
+    <div style="text-align: right;">
+        <img src="static/catsushi.jpg" alt="myProfileImage">
+    </div>
       <div>
           <h1>{{ name }}</h1>
           <p><small>
@@ -13,8 +19,9 @@
               location, US
           </small></p>
           <div class="content">
-              <p>Some details about me<p>
-              <p>More details about me<p>
+            {% for content in aboutMe %}
+              <p>{{content}}<p>
+            {% endfor %}
           </div>
 
           <div class="social-icon">
