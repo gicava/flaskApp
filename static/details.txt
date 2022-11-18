@@ -1,3 +1,2 @@
-This is some information about me.
-It's easy to edit this in a text file to make some edits for the text that I will include in my personal site.
-I can expand this with more functionality with different formats, but this is a good entry point.
+This is just a little about me
+I like turtles
